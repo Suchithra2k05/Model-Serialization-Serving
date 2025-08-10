@@ -43,17 +43,14 @@ Returns predictions as JSON.
 
 🔍 Example API Call
 POST Request
-bash
-Copy
-Edit
+
 curl -X POST http://127.0.0.1:5000/predict \
 -H "Content-Type: application/json" \
 -d '{"features": [6.1, 2.8, 4.7, 1.2]}'
 
 JSON Response
 json
-Copy
-Edit
+
 {
     "prediction": 1
 }
@@ -74,9 +71,7 @@ How to handle JSON requests and responses.
 Importance of error handling in production APIs.
 
 🛠 How to Run
-bash
-Copy
-Edit
+
 # Clone the repository
 git clone https://github.com/yourusername/model-serialization-serving.git
 cd model-serialization-serving
